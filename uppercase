@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Iain Fraser JS Exercises</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var a = "he said, My name is Elliot";
+        var result = a.toUpperCase();
+        alert(result);
+    </script>
+
+    <script type="text/javascript">
+        function MyFunction() {
+            var RA = ["iain", "Adam", "James"];
+            RA.toString();
+        }
+    </script>
+
+
+</body>
+
+</html>
