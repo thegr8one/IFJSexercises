@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Coding Challenge 2</title>
+</head>
+
+<body>
+
+    <h1> Hello Elliot, coding challenge 2</h1>
+
+    <script type="text/javascript">
+        var num = 3.14;
+
+        var result = Math.sqrt(num);
+        alert(result);
+    </script>
+
+    <script type="text/javascript">
+        var a = 3
+        var b = 2
+        var c = 1
+        var result = (a + b + c);
+        alert("the result of the three numbers added together (1,2,3) is equal to " + result);
+    </script>
+
+    <script type="text/javascript">
+        var person = {
+            name: "Elliot ",
+            age: "23 ",
+            occupation: "all round coder "
+        }
+        document.write(person.name, person.age, person.occupation)
+    </script>
+
+    <script type="text/javascript">
+        function hellofriends() {
+            document.write( < img src = "C:\Users\Administrator\Downloads\startbootstrap-business-casual-gh-pages\JS projects\Challenges\images\FSU.jpg" / > )
+        }
+    </script>
+
+    <form>
+        <input type="button" onclick="hellofriends() " value="hey dude" />
+    </form>
+
+
+</body>
+
+</html>
